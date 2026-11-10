@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "kind": "repository_boundary_expansion",
+  "source_repository": "alvarovillalbaa/model-inference",
+  "source_revision": "2eafeaf2bfac00acb3960311f381d38b72f40c97",
+  "canonical_repository": "alvarovillalbaa/model-serving",
+  "separated_repository": "alvarovillalbaa/inference-benchmarks",
+  "source_lab_revision": "ba67e510bab2703b1042993744ce099490221c1f",
+  "original_lab_sections": {
+    "retained": [
+      "17.1 model formats",
+      "17.2 endpoint deployment",
+      "17.3 endpoint/demo lifecycle"
+    ],
+    "separated": [
+      "17.2 measurement methodology",
+      "17.3 target comparison reporting"
+    ]
+  },
+  "history_policy": "Repository identity and Git history are preserved under the canonical name. Mixed blueprints/backlogs remain byte-exact pre-expansion source snapshots. Current requirements have one active owner per capability; no engine is claimed.",
+  "files": [
+    {
+      "source_path": "LICENSE",
+      "source_sha256": "6e3ae862a0f98e9f377f98f71fd86160932dad7186416f5509a335703c6fe3b5",
+      "destinations": [
+        {
+          "repository": "model-serving",
+          "path": "LICENSE",
+          "role": "retained_or_adapted",
+          "sha256": "6e3ae862a0f98e9f377f98f71fd86160932dad7186416f5509a335703c6fe3b5",
+          "content_relation": "identical"
+        },
+        {
+          "repository": "inference-benchmarks",
+          "path": "LICENSE",
+          "role": "separated_active_scope",
+          "sha256": "6e3ae862a0f98e9f377f98f71fd86160932dad7186416f5509a335703c6fe3b5",
+          "content_relation": "identical"
+        }
+      ]
+    },
+    {
+      "source_path": "README.md",
+      "source_sha256": "41496b01e3ec5d213a2c0cfc39a2f1b47c5b0dc6bea0cf907f275bd145f9836d",
+      "destinations": [
+        {
+          "repository": "model-serving",
+          "path": "README.md",
+          "role": "retained_or_adapted",
+          "sha256": "38dffa6fd62f6190f8353f22795eeaa66a539d871e02b87a62210581b4aec843",
+          "content_relation": "adapted"
+        },
+        {
+          "repository": "inference-benchmarks",
+          "path": "README.md",
+          "role": "separated_active_scope",
+          "sha256": "ee39a0fefd572c37668419e9f2f72b5c2827378af148410d8d93c90251324573",
+          "content_relation": "adapted"
+        }
+      ]
+    },
+    {
+      "source_path": ".gitignore",
+      "source_sha256": "3a27b824fbf244f560dca603e815b1d38eb2ab811954de1e3303f6aa346cd729",
+      "destinations": [
+        {
+          "repository": "model-serving",
+          "path": ".gitignore",
+          "role": "retained_or_adapted",
+          "sha256": "3a27b824fbf244f560dca603e815b1d38eb2ab811954de1e3303f6aa346cd729",
+          "content_relation": "identical"
+        },
+        {
+          "repository": "inference-benchmarks",
+          "path": ".gitignore",
+          "role": "separated_active_scope",
+          "sha256": "3a27b824fbf244f560dca603e815b1d38eb2ab811954de1e3303f6aa346cd729",
+          "content_relation": "identical"
+        }
+      ]
+    },
+    {
+      "source_path": "AGENTS.md",
+      "source_sha256": "1781bf4d2bdf2c3a10b4a5324f862390ebd8b0dcfdeb3e9f42982b5e59e707df",
+      "destinations": [
+        {
+          "repository": "model-serving",
+          "path": "AGENTS.md",
+          "role": "retained_or_adapted",
+          "sha256": "0afa1a19a9526b476d9530cf21e12a1b8f503f8ad65a0bc6ec5d815c7c7c0138",
+          "content_relation": "adapted"
+        },
+        {
+          "repository": "inference-benchmarks",
+          "path": "AGENTS.md",
+          "role": "separated_active_scope",
+          "sha256": "f9303deca8706a66f11887ba201e8767414d11e3654c8f9ab1cbc58e5c8bcf50",
+          "content_relation": "adapted"
+        }
+      ]
+    },
+    {
+      "source_path": "docs/specs/README.md",
+      "source_sha256": "d76ce5358f7817e1ca9a4d0dd3fb483693ee5ae3de165023c29802baa415475b",
+      "destinations": [
+        {
+          "repository": "model-serving",
+          "path": "docs/specs/README.md",
+          "role": "retained_or_adapted",
+          "sha256": "c0bc8e15edbffe467f2d657e259fefe323f4f003dbaf626bfb0f831ec976ff0c",
+          "content_relation": "adapted"
+        },
+        {
+          "repository": "inference-benchmarks",
+          "path": "docs/specs/README.md",
+          "role": "separated_active_scope",
+          "sha256": "1763d45e91b0844754f88d8c45b47d6b70443f750f261911eec5768d17a6c75b",
+          "content_relation": "adapted"
+        }
+      ]
+    },
+    {
+      "source_path": "docs/specs/backlog.md",
+      "source_sha256": "66fa43df253e8009baa08ef775d10aaf83c2ea89192101f7841670768f1817f4",
+      "destinations": [
+        {
+          "repository": "model-serving",
+          "path": "docs/sources/pre-expansion/backlog.md",
+          "role": "frozen_original",
+          "sha256": "66fa43df253e8009baa08ef775d10aaf83c2ea89192101f7841670768f1817f4",
+          "content_relation": "identical"
+        },
+        {
+          "repository": "model-serving",
+          "path": "docs/specs/backlog.md",
+          "role": "narrowed_active_scope",
+          "sha256": "91c8b067bd50027bfa55486b76562946b6a499493c5850052969c7b5b4984452",
+          "content_relation": "adapted"
+        },
+        {
+          "repository": "inference-benchmarks",
+          "path": "docs/specs/backlog.md",
+          "role": "separated_active_scope",
+          "sha256": "fcf092920909b80182c0700ae67a586fc7a6c56b5f8d3098b9c5369953d6af07",
+          "content_relation": "adapted"
+        }
+      ]
+    },
+    {
+      "source_path": "docs/specs/blueprint.md",
+      "source_sha256": "007c2f8c39984a6543cece557942727044a7e5d905cd69b6c542614057f948ee",
+      "destinations": [
+        {
+          "repository": "model-serving",
+          "path": "docs/sources/pre-expansion/blueprint.md",
+          "role": "frozen_original",
+          "sha256": "007c2f8c39984a6543cece557942727044a7e5d905cd69b6c542614057f948ee",
+          "content_relation": "identical"
+        },
+        {
+          "repository": "model-serving",
+          "path": "docs/specs/blueprint.md",
+          "role": "narrowed_active_scope",
+          "sha256": "b53f2b0c7ec282a71e1a9a994b5b70e70f669352cc398ef664eea7c89035d7d6",
+          "content_relation": "adapted"
+        },
+        {
+          "repository": "inference-benchmarks",
+          "path": "docs/specs/blueprint.md",
+          "role": "separated_active_scope",
+          "sha256": "7f10092e4748fa73e325761e9995fb451ce22e15dcf0abb29e5d3319e1c1ff77",
+          "content_relation": "adapted"
+        }
+      ]
+    },
+    {
+      "source_path": "docs/sources/lab-provenance.json",
+      "source_sha256": "eb7bf2d6c8608203ce727044002e4ea7462eeb0c3fcd0b2e5613ff1b7a4f2964",
+      "destinations": [
+        {
+          "repository": "model-serving",
+          "path": "docs/sources/lab-provenance.json",
+          "role": "retained_historical",
+          "sha256": "eb7bf2d6c8608203ce727044002e4ea7462eeb0c3fcd0b2e5613ff1b7a4f2964",
+          "content_relation": "identical"
+        }
+      ]
+    },
+    {
+      "source_path": "docs/results/2026/11-10/repository-split.json",
+      "source_sha256": "d801f5043a929388a08b6f7aabf2e1c404ed2010031ea4f7fd897b8956905816",
+      "destinations": [
+        {
+          "repository": "model-serving",
+          "path": "docs/results/2026/11-10/repository-split.json",
+          "role": "retained_historical",
+          "sha256": "d801f5043a929388a08b6f7aabf2e1c404ed2010031ea4f7fd897b8956905816",
+          "content_relation": "identical"
+        }
+      ]
+    }
+  ]
+}
